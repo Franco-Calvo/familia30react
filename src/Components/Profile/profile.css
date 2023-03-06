@@ -1,0 +1,21 @@
+.profile-img {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 80%;
+}
+
+.profile-img img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+}
+
+.profile-img span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 1rem;
+}

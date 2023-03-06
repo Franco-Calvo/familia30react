@@ -1,0 +1,23 @@
+.card-container{ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 8rem;
+  border-radius: 12px;
+  background: var(--input-bg);
+  box-shadow: var(--box-shadow);
+}
+
+.img-coursee{ 
+  height: 7rem;
+  width: 10rem;
+  border: 1px solid gray;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-course-img{
+  max-width: 100%;
+}

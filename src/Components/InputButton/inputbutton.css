@@ -1,0 +1,28 @@
+.input-button-container {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-button-container input:hover {
+  box-shadow: var(--box-shadow-btn);
+  background: var(--btn-hv);
+}
+
+
+.input-button-container input {
+  background: var(--btn-bg);
+  color: var(--input-bg);
+  box-shadow: var(--box-shadow-btn);
+  border: none;
+  outline: none;
+  height: 3.31rem;
+  border-radius: 12px;
+  width: 15.43rem;
+  font-size: 1rem;
+  font-weight: 550;
+  font-family: "Exo", sans-serif;
+}

@@ -1,0 +1,43 @@
+.input-general-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputL-general {
+  color: var(--font-col);
+  font-size: 1rem;
+  line-height: 21px;
+  font-weight: 500;
+  height: 1rem;
+}
+
+.input-general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background: var(--input-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+  height: 3.31rem;
+  width: 21.43rem;
+}
+
+.input-general span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  padding: 0.3rem;
+  color: var(--font-col)
+}
+
+.input-general-none {
+  border: none;
+  outline: none;
+  height: 2.8rem;
+  width: 20rem;
+}
